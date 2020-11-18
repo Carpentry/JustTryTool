@@ -20,8 +20,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		B12069B82564D46500E09F9E /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = B12069B62564D46500E09F9E /* Tools.h */; };
-		B12069B92564D46500E09F9E /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = B12069B72564D46500E09F9E /* Tools.m */; };
 		B8F429C276B04A3B5D07130C318BDB06 /* Pods-JustTryUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8D929F59CB95210031E326365070B /* Pods-JustTryUtils_Tests-dummy.m */; };
 		C148570E2D82171CB2DC916C44222985 /* Pods-JustTryUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5434AAE8FC6741C9EFFC440277E7302 /* Pods-JustTryUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3BFD263E17DCA6A6414FED72D764BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -48,8 +46,8 @@
 		85F1F9DF8847F8E76FBF5A2B06D839CA /* Pods-JustTryUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JustTryUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A363A89832B2ACDFA1A5D7FD87EF917A /* JustTryUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JustTryUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B12069B62564D46500E09F9E /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
-		B12069B72564D46500E09F9E /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		B12069C22564FA8700E09F9E /* JustTryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustTryTool.h; path = JustTryUtils/Classes/JustTryTool.h; sourceTree = "<group>"; };
+		B12069C32564FA8700E09F9E /* JustTryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustTryTool.m; path = JustTryUtils/Classes/JustTryTool.m; sourceTree = "<group>"; };
 		BE5598B3EE49D654D6665752D9BB62C5 /* JustTryUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustTryUtils.debug.xcconfig; sourceTree = "<group>"; };
 		C5434AAE8FC6741C9EFFC440277E7302 /* Pods-JustTryUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JustTryUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DBF6B69F92D791AB6672676B8F3675B7 /* Pods-JustTryUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustTryUtils_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -99,10 +97,10 @@
 		6D78C723AD64E62EF2B7B2D47700BF83 /* JustTryUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B12069C22564FA8700E09F9E /* JustTryTool.h */,
+				B12069C32564FA8700E09F9E /* JustTryTool.m */,
 				585C1EDED5770B90F066D1D9785B92C9 /* Pod */,
 				BD3B04E4CCC1A661CAF6A65337AB9EBE /* Support Files */,
-				B12069B62564D46500E09F9E /* Tools.h */,
-				B12069B72564D46500E09F9E /* Tools.m */,
 			);
 			name = JustTryUtils;
 			path = ../..;
@@ -176,7 +174,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12069B82564D46500E09F9E /* Tools.h in Headers */,
 				C148570E2D82171CB2DC916C44222985 /* Pods-JustTryUtils_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8F429C276B04A3B5D07130C318BDB06 /* Pods-JustTryUtils_Tests-dummy.m in Sources */,
-				B12069B92564D46500E09F9E /* Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
