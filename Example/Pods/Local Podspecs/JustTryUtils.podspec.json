@@ -1,0 +1,22 @@
+{
+  "name": "JustTryUtils",
+  "version": "0.1.0",
+  "summary": "A short description of JustTryUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Carpentry/JustTryUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Carpentry": "1403037089@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Carpentry/JustTryUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JustTryUtils/Classes/**/*"
+}

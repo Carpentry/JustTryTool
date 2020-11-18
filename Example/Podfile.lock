@@ -1,0 +1,16 @@
+PODS:
+  - JustTryUtils (0.1.0)
+
+DEPENDENCIES:
+  - JustTryUtils (from `../`)
+
+EXTERNAL SOURCES:
+  JustTryUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JustTryUtils: a0a2349ad59102ded9346dfe0dfd525a1c862ac7
+
+PODFILE CHECKSUM: 20112e6780cf9ccdbb748bcbe15c6db561e67cc0
+
+COCOAPODS: 1.9.0
