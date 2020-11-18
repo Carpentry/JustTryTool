@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JustTryUtils_Tests' do
+  pod 'JustTryUtils', :path => '../'
+  
+  
+end
